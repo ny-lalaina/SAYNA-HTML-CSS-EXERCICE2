@@ -1,0 +1,272 @@
+* {
+    box-sizing: border-box ;
+}
+
+body {
+        font-family: "Arial", sans-serif;
+        margin: 0;
+        padding: 0;
+        width: auto;
+        height: 100px;
+}
+
+.topbar {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background: url(assets/img/header_bg.jpg);
+    padding: 2%;
+}
+
+.topbar nav a {
+    color: #FFF;
+    font-family: 'Courgette', cursive;
+    text-decoration: none;
+    margin-top: 1,5rem;
+    padding-top: 2%;
+}
+
+.topbar nav .logo {
+    width: 300px; 
+    margin-left: 10%;
+}
+
+.topbar nav {
+    margin-left: 20%;
+    margin-right: 25%;
+}
+
+.topbar nav .link {
+    float: left;
+    margin-right: 40px;
+}
+
+.topbar nav .link1 {
+    float: right;
+    color: #3d9f96;
+}
+
+main {
+    display: block;
+    width: 100%;
+    background: url(assets/img/header_bg.jpg);
+    border-top: solid #322f36 0.1px;
+    line-height: 3em;
+    text-align: center;
+    padding-top: 1%;
+}
+
+
+.promote {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 50px;
+  color: #d3cdcd;
+  margin-bottom: -30px;
+}
+
+.content .promote strong {
+    color: #FFF;
+}
+
+.paragraph {
+    padding-top: 30px;
+    text-align: center;
+    color: #c3beca;
+    font-size: 20px;
+}
+
+button {
+    border: 60px;
+    background-color: #3d9f96;
+    border-color: #3d9f96;
+    color: #FFF;
+    font-family: Raleway, Arial, sans-serif;
+    font-weight: 600;
+    padding: 1% 4%;
+    font-size: 1rem;
+    text-align: center;
+    border-radius: 50px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.ordi {
+    text-align: center;
+    margin-bottom: 300px;
+    top: 80px;
+    position: relative;
+}
+
+section {
+    display: block;
+    margin-top: -300px;
+    position: relative;
+    z-index: 2;
+}
+
+section .socialmedia {
+    background-color: 	#f7f7f7;
+}
+
+section .social {
+    text-align: center;
+    padding-top: 50px;
+    /* padding-left: 30px; 
+    margin-right: 30px;*/
+}
+
+section a {
+    padding-left: 30px; 
+    margin-right: 30px;
+}
+
+section .media {
+    text-align: center;
+    margin-top: 30px;
+    color: #3d9f96;
+    font-family: Helvetica, Arial, sans-serif, 'Raleway';
+    font-size: 20px;
+    padding-bottom: 75px;
+}
+
+.appli {
+    text-align: center;
+    color: #000000;
+    font-size: 17px;  
+    background-color: #fdfdfd;  
+}
+
+.appli .title {
+    padding-top: 75px;
+    margin-top: -20px;
+    font-size: 30px;
+    font-family: Raleway, Arial, 'sans-serif' ; 
+}
+
+.appli .para {
+    color: #ababab;
+    font-size: 20px;
+    padding-bottom: 30px;
+} 
+
+.content .app {
+    color: #3d9f96;
+}
+
+.colonne { 
+    background: url(assets/img/map_bg.png);
+    display: flex;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: -25px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    line-height: 30px;
+}
+
+h3 {
+    font-family: Raleway, Arial, sans-serif;
+}
+
+.column1 {
+    width: 100%; 
+}
+
+.column2 {
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+    padding-right: 30px;
+}
+
+.column3 {
+    /* margin-left: 200px; */
+    width: 100%;
+}
+
+.icons {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/*PROMOTION*/
+
+.about {
+    background: #27242b;
+    text-align: center;
+    padding-top: 75px;
+    padding-bottom: 30px;
+}
+
+.about .text1 {
+    font-size: 20px;
+    font-family: Open Sans, Arial, sans-serif;
+    line-height: 30px;
+    color: #ababab;
+}
+
+.about .name {
+    font-size: 15px;
+    font-family: Raleway, Arial, sans-serif;
+    line-height: 30px;
+    color: #3d9f96;
+}
+
+.application{
+    background: #f7f7f7;
+}
+
+.screen {
+    font-size: 25px;
+    color: #322f36;
+    font-family: Helvetica, Arial, sans-serif, 'Raleway';
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-left: 330px; 
+}
+
+.figure {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.screenshot {
+    font-size: 15px;
+    font-family: Helvetica, Arial, sans-serif, 'Raleway';
+    color: #27242b;
+    padding-bottom: 50px;
+}
+
+.division {
+    width: 100%;
+}
+
+.section1 {
+    padding: 8% 18%;
+    display: flex;
+    justify-items: flex-start;
+    align-items: top;
+}
+
+.text1 {
+    padding-left: 150px;
+}
+
+.text2 {
+    padding-right: 300px;
+}
+
+.section2 {
+   padding: 8% 18%;
+   display: flex;
+   flex-direction: row-reverse;
+   justify-items: flex-start;
+   align-items: top;
+} 
+
